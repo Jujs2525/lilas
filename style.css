@@ -68,8 +68,8 @@ body, html {
             max-width: 100%;
             max-height: 60vh;
             border-radius: 15px;
-            border: 3px solid #00f5d4;
-            box-shadow: 0 0 25px rgba(0, 245, 212, 0.4);
+            border: 3px solid #e9c3ff;
+            box-shadow: 0 0 25px #39005a;
         }
 
         .slide-content p {
@@ -106,12 +106,6 @@ body, html {
 
         /* SLIDES ESPECÍFICOS */
         #slide1 { background: linear-gradient(45deg, #39005a,  #e9c3ff); }
-
-             #slide1 img{
-            border-radius: 15px;
-            border: 3px solid #00f5d4;
-            box-shadow: 0 0 25px rgba(0, 245, 212, 0.4);
-             }
 
 
 
@@ -150,11 +144,11 @@ body, html {
         #slide_lifecycle .phase p { font-size: 1.1vw; margin-bottom: 0; }
 
         #slide_final {
-            background-image: linear-gradient(rgba(26, 26, 46, 0.8), rgba(26, 26, 46, 0.8)), url('http://googleusercontent.com/file_content/3');
+            background-image: linear-gradient( #e9c3ff, rgba(26, 26, 46, 0.8)), url('http://googleusercontent.com/file_content/3');
             background-size: cover;
             background-position: center;
         }
-        #slide_final h1 { font-size: 8vw; color: #fff; text-shadow: 0 0 20px #00f5d4;}
+        #slide_final h1 { font-size: 8vw; color: #fff; text-shadow: 0 0 20px #39005a;}
         
         .baixo{
             position: absolute; 
